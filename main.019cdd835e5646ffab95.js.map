@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./js/main.js","webpack:///./index.js"],"names":["console","log"],"mappings":"8EAAAA,QAAQC,IAAI,U,yDCAZ,6B","file":"main.019cdd835e5646ffab95.js","sourcesContent":["console.log('hello');\r\nconst myconfirm = 'good';\r\n","import './styles.css';\nimport './js/main'"],"sourceRoot":""}
