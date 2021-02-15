@@ -26,6 +26,7 @@
     "@babel/preset-env": "^7.11.5",
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.1.0",
+    "box-shadows-css": "^1.0.51",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^4.3.0",
     "file-loader": "^6.1.0",
@@ -50,7 +51,6 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "debounce": "^1.2.0",
     "handlebars": "^4.7.6",
     "lodash.debounce": "^4.0.8"
   }
