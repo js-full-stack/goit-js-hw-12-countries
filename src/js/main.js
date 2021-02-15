@@ -5,7 +5,7 @@ import {
   updateMarkupCountriesList,
 } from './update-markup';
 
-import { defaultModules, error, info, success } from './notification';
+import { error, info, success } from './notification';
 
 const debounce = require('lodash.debounce');
 
@@ -13,7 +13,7 @@ const debouncedOnInput = debounce(requestHandler, 500);
 refs.input.addEventListener('input', debouncedOnInput, { passive: true });
 
 function requestHandler() {
-  refs.countriesList.innerHTML = '';
+  refs.input.innerHTML = '';
   const inputValue = refs.input.value;
   fetchCountries(inputValue).then(data => {
     if (data.length === 1) {
