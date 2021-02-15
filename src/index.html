@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Countries</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -12,6 +16,7 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/box-shadows-css@1/box-shadows.min.css"
@@ -19,26 +24,17 @@
   </head>
 
   <body>
-    <input
-      class="input-style"
-      type="text"
-      name="query"
-      placeholder="Enter country name"
-    />
-
+    ><div class="input-container">
+      <input
+        class="input-style"
+        type="text"
+        name="query"
+        placeholder="Enter country name"
+      />
+    </>
+  </div>
     <div class="countries-list-js"></div>
 
-    <!-- <button
-      type="button"
-      class="btn btn-primary button"
-      data-action="load-more"
-    >
-      <span
-        class="spinner-border spinner-border-sm spinner is-hidden"
-        role="status"
-        aria-hidden="true"
-      ></span>
-      <span class="label">Показать еще</span>
-    </button> -->
+  
   </body>
 </html>
