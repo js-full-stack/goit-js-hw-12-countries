@@ -13,7 +13,6 @@ const debouncedOnInput = debounce(requestHandler, 500);
 refs.input.addEventListener('input', debouncedOnInput, { passive: true });
 
 function requestHandler() {
-  refs.input.innerHTML = '';
   const inputValue = refs.input.value;
   fetchCountries(inputValue).then(data => {
     if (data.length === 1) {
