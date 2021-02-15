@@ -22,7 +22,7 @@ function requestHandler() {
       success({
         text: `Data for the ${countryName} received successfully`,
         delay: 2000,
-        maxTextHeight: true,
+        maxTextHeight: null,
       });
       return;
     }
@@ -32,7 +32,7 @@ function requestHandler() {
       info({
         text: `Matching ${data.length} results`,
         delay: 2000,
-        maxTextHeight: true,
+        maxTextHeight: null,
       });
       return;
     }
@@ -41,7 +41,7 @@ function requestHandler() {
       return error({
         text: 'Too many matches found. Please enter a more specific query',
         delay: 2000,
-        maxTextHeight: true,
+        maxTextHeight: null,
       });
     }
 
