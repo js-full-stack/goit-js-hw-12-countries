@@ -40,7 +40,7 @@ function fetchCountries() {
         return;
       }
 
-      if (data.length > 1 && data.length < 10) {
+      if (data.length > 1 && data.length <= 10) {
         updateMarkupCountriesList(data);
         info({
           text: `Matching ${data.length} results`,
