@@ -31,7 +31,7 @@ function fetchCountries() {
       if (data.length === 1) {
         updateMarkupCountry(data);
 
-        const countryName = data.map(({ name }) => name);
+        const countryName = data.name[0];
         success({
           text: `Data for the ${countryName} received successfully`,
           delay: 2000,
